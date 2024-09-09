@@ -1,0 +1,153 @@
+<div class="col-12 text-end">
+  <button class="btn btn-primary" (click)="openModal()">Add Player</button>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3" *ngFor="let player of players">
+      <div>
+        <div class="card w-100">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-6 align-self-center">
+                <h5>{{ player.playerName }}</h5>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p>{{ player.playerNationality }}</p>
+            <p>{{ player.playerValue }}</p>
+            <p>{{ player.playerShirtNumber }}</p>
+            <p>{{ player.team.teamName }}</p>
+            <p>{{ player.team.teamStadium }}</p>
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-6">
+                <i
+                  (click)="onEditPlayer(player)"
+                  class="btn fa fa-edit"
+                  style="font-size: 25px"
+                ></i>
+              </div>
+              <div class="col-6 text-end">
+                <i
+                  class="btn fa fa-trash text-danger"
+                  style="font-size: 25px"
+                  (click)="onDeletePlayer(player)"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- The Modal -->
+          <div class="modal" id="myModal" #myModal>
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Player</h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    (click)="closeModal()"
+                  >
+                    1
+                  </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        [(ngModel)]="Playerobj.playerName"
+                        class="form-control"
+                        placeholder="Player Name"
+                        name="playerName"
+                      />
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        [(ngModel)]="Playerobj.playerAge"
+                        class="form-control"
+                        placeholder="Player Age"
+                        name="playerAge"
+                      />
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        [(ngModel)]="Playerobj.playerNationality"
+                        class="form-control"
+                        placeholder="Player Nationality"
+                        name="playerNationality"
+                      />
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        [(ngModel)]="Playerobj.playerShirtNumber"
+                        class="form-control"
+                        placeholder="Player Shirt Number"
+                        name="playerShirtNumber"
+                      />
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        [(ngModel)]="Playerobj.playerValue"
+                        class="form-control"
+                        placeholder="Player Value"
+                        name="playerValue"
+                      />
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-4">
+                        <select title="Team">
+                          <option value="">Select a Team</option>
+                          <ng-container *ngFor="let team of teams">
+                            <option value="{{ team.teamId }}">
+                              {{ team.teamName }}
+                            </option>
+                          </ng-container>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    (click)="closeModal()"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    (click)="onSaveform()"
+                  >
+                    Save
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

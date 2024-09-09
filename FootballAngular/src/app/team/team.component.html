@@ -1,0 +1,134 @@
+<div class="col-12 text-end">
+  <button class="btn btn-primary" (click)="openModal()">Add team</button>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4 d-flex align-items-stretch" *ngFor="let team of teams">
+      <div class="card w-100">
+        <div class="card-header">
+          <div class="row">
+            <div class="col-6 align-self-center">
+              <h5>
+                <b>{{ team.teamName }}</b>
+              </h5>
+            </div>
+            <div class="col-6 text-end">
+              <img
+                class="logo-image"
+                *ngIf="team.teamLogo !== null"
+                [src]="team.teamLogo"
+                alt="Logo"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <p>{{ team.teamDescription }}</p>
+          <p>{{ team.teamCity }}, {{ team.teamStadium }}</p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-6">
+              <i
+                (click)="onEditTeam(team)"
+                class="btn fa fa-edit"
+                style="font-size: 25px"
+              ></i>
+            </div>
+            <div class="col-6 text-end">
+              <i
+                class="btn fa fa-trash text-danger"
+                style="font-size: 25px"
+                (click)="onDeleteTeam(team)"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal" #myModal>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Team</h4>
+        <button type="button" class="btn-close" (click)="closeModal()">
+          1
+        </button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12">
+            <input
+              type="text"
+              [(ngModel)]="Teamobj.teamName"
+              class="form-control"
+              placeholder="Team Name"
+              name="teamName"
+            />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <input
+              type="text"
+              [(ngModel)]="Teamobj.teamCity"
+              class="form-control"
+              placeholder="Team City"
+              name="teamCity"
+            />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <input
+              type="text"
+              [(ngModel)]="Teamobj.teamStadium"
+              class="form-control"
+              placeholder="Team Stadium"
+              name="teamStadium"
+            />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <input
+              type="text"
+              [(ngModel)]="Teamobj.teamDescription"
+              class="form-control"
+              placeholder="Team Description"
+              name="teamDescription"
+            />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <input
+              type="text"
+              [(ngModel)]="Teamobj.teamLogo"
+              class="form-control"
+              placeholder="Team Logo"
+              name="teamLogo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="closeModal()">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary" (click)="onSaveform()">
+          Save
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

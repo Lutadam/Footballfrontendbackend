@@ -1,0 +1,40 @@
+.homebutton {
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+  }
+  .card {
+    box-shadow: 0 2px 4px 0 black, 0 3px 10px 0 black;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card-header {
+    background: linear-gradient(135deg, black, rgb(4, 177, 235));
+    color: wheat;
+  }
+  
+  .logo-image {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+  }
+  
+  .teamnamebtn {
+    background-color: transparent;
+    border-color: transparent;
+    color: wheat;
+  }
+  .teamnamebtn:hover {
+    background-color: transparentty;
+    border-color: transparent;
+    color: wheat;
+  }
+  
+  .modal-header {
+    background: linear-gradient(black, rgb(4, 177, 235));
+    color: wheat;
+  }
