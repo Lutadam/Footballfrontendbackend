@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\services\\teamdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\services\\teamdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\services\\playerdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\services\\playerdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|c:\\users\\sdworx\\desktop\\football project\\footballapi\\footballapi\\footballapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E4EBAE6D-5154-4953-8A17-DCBE8F5D19D1}|Footballapi\\Footballapi.csproj|solutionrelative:footballapi\\footballapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeamDataService.cs",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Services\\TeamDataService.cs",
+              "RelativeDocumentMoniker": "Footballapi\\Services\\TeamDataService.cs",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Services\\TeamDataService.cs",
+              "RelativeToolTip": "Footballapi\\Services\\TeamDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:01:32.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\appsettings.json",
+              "RelativeDocumentMoniker": "Footballapi\\appsettings.json",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\appsettings.json",
+              "RelativeToolTip": "Footballapi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-30T17:38:28.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Program.cs",
+              "RelativeDocumentMoniker": "Footballapi\\Program.cs",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Program.cs",
+              "RelativeToolTip": "Footballapi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T17:45:53.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "Footballapi\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Models\\Team.cs",
+              "RelativeToolTip": "Footballapi\\Models\\Team.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T17:49:11.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerDataService.cs",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Services\\PlayerDataService.cs",
+              "RelativeDocumentMoniker": "Footballapi\\Services\\PlayerDataService.cs",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Services\\PlayerDataService.cs",
+              "RelativeToolTip": "Footballapi\\Services\\PlayerDataService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwBEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:49:02.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Footballapi\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Models\\Player.cs",
+              "RelativeToolTip": "Footballapi\\Models\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T17:50:31.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Footballapi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Footballapi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T17:45:31.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "Footballapi\\Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "Footballapi\\Controllers\\TeamsController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T17:52:03.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Controllers\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Footballapi\\Controllers\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Controllers\\PlayerController.cs",
+              "RelativeToolTip": "Footballapi\\Controllers\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:46:43.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Footballapi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Footballapi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-30T18:11:49.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Footballapi.csproj",
+              "DocumentMoniker": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Footballapi.csproj",
+              "RelativeDocumentMoniker": "Footballapi\\Footballapi.csproj",
+              "ToolTip": "C:\\Users\\SDworx\\Desktop\\Football Project\\Footballapi\\Footballapi\\Footballapi.csproj",
+              "RelativeToolTip": "Footballapi\\Footballapi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-30T17:51:39.689Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
